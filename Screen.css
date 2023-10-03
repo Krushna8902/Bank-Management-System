@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+    background:#c1c5f5;
+    height: 60px;
+    width: 100%;
+}
+nav .name{
+    font-size: 30px;
+    font-weight: blod;
+    color: black;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;  
+}
+nav ol li{
+    margin: 0 2px;   
+}
+nav ol li a{
+    color: black;
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav .search_bar{
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height:35px ;
+
+}
+
+nav .search_bar input{
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+    
+    
+}
+nav .search_bar span{
+    color:#0a5071;
+    font-size: 20px;
+    background:#fff ;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+
+
+}
+nav .search_bar span:hover{
+    color: white;
+}
+nav .search_bar span::after{
+    height: 100%;
+    width: 0%;
+    content: '';
+    background: grey;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+nav .search_bar span:hover::after{
+    width: 100%;
+}
+
+.main{
+    margin: 1%;
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     border-radius: 20px; 
+     margin: 5%;
+     background-color:#c1c5f5;
+     transition: transform .2s;
+      }
+
+.image img{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+
+}
+.card:hover{ 
+  transform: scale(1.2);
+}
+.title{
+  text-align: center;
+  padding: 20px;
+  
+ }
+
+h1{
+  font-size: 20px;
+  text-decoration: none;
+ }
+
+.des{
+  padding: 10px;
+  text-align: justify;
+  padding-top: 6px;
+  font-size: 15px;
+  text-decoration: none;
+  
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+  margin-top: 40px;
+  margin-bottom:10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding:10px;
+}
+
+.container{
+    width: 100%;
+    height: 230vh;
+    background-image: linear-gradient(rgba(0,0,10,0.6),rgba(0,0,10,0.6)),url(image1.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}

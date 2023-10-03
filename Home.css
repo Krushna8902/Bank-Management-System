@@ -1,0 +1,50 @@
+.container
+{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    padding: 10px;
+    justify-content: space-around;
+}
+.txtsearch
+{
+    width: 40%;
+}
+.bankname
+{
+    font-weight: 700;
+}
+.txtsrh
+{
+    padding: 6px;
+    font-size: 10px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+.btnsrh
+{
+   background-color: aliceblue;
+   cursor: pointer;
+   width: 10%;
+    
+}
+.qricon
+{
+    cursor: pointer;
+}
+.usericon
+{
+    cursor: pointer;
+}
+.bankimg
+{
+    height: 100vh;
+}
